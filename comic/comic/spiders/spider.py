@@ -12,6 +12,7 @@ from lxml import etree
 
 class SpiderSpider(scrapy.Spider):
     name = 'spider'
+    #sorry
     allowed_domains = ['comic.kukukkk.com','n9.1whour.com']
     start_urls = ['http://comic.kukukkk.com/comictype/3_2.htm']
     #图片也=页网址

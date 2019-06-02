@@ -17,11 +17,11 @@ class ComicPipeline(object):
     def open_spider(self, spider):
         #数据库连接
         self.conn = pymysql.connect(
-            host='127.0.0.1',
+            host='#####',
             port=3306,
-            db='xpc_videos',
+            db='######',
             user='root',
-            password='chock2333',
+            password='######',
             charset='utf8mb4',
         )
         self.cur = self.conn.cursor()
